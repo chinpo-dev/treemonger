@@ -10,7 +10,7 @@ from utils import format_bytes
 from scan import get_directory_tree, print_directory_tree, tree_to_dict
 from subdivide import compute_rectangles
 #from renderers.tk import render as render_tk
-from renderers.tk import render_class
+from renderers.gtk import render_class
 
 # MAJOR TODOs:
 # - fix border colors
